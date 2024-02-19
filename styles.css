@@ -2,6 +2,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 .section-1 {
@@ -14,8 +15,8 @@ body {
 .header {
     display: flex;
     align-items: center;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .header-links {
@@ -27,8 +28,8 @@ body {
 
 .content-1 {
     display: flex;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
     margin-bottom: 40px;
 }
 
@@ -96,4 +97,43 @@ ul a, ul {
     list-style-type: none;
 }
 
-/* commit first */
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: white;
+
+}
+
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.child-1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    padding-top: 10px;
+}
+
+.child-2 {
+    display: flex;
+    gap: 30px;
+}
+
+.empty {
+    width: 130px; 
+    height: 130px; 
+    border: solid #3882f6 3px;
+    border-radius: 13px;
+    margin-bottom: 5px;
+}
+
+.text {
+    width: 130px;
+    text-align: center;
+}
