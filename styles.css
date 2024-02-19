@@ -107,6 +107,7 @@ ul a, ul {
 }
 
 .section-2 {
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -114,6 +115,7 @@ ul a, ul {
 }
 
 .child-1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -123,6 +125,7 @@ ul a, ul {
 .child-2 {
     display: flex;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .empty {
@@ -134,6 +137,29 @@ ul a, ul {
 }
 
 .text {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     width: 130px;
     text-align: center;
+    font-size: 14px;
+    color: #4C5664;
 }
+
+.section-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 70px 200px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 50;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: auto;
+}
+
